@@ -5,7 +5,7 @@ A lightweight reorderable (via HTML5 drag+drop) list in TypeScript with no depen
 ## Usage / Example
 
 ```tsx
-import { SortableItem, SortableList } from '../sortable-list';
+import { SortableItem, SortableList } from 'sortable-list';
 
 class MyComponent extends React.Component {
   public render(): JSX.Element {

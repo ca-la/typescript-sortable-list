@@ -2,7 +2,7 @@
   "name": "typescript-sortable-list",
   "version": "1.0.0",
   "description": "A lightweight reorderable (via HTML5 drag+drop) list, in TypeScript, with no dependencies.",
-  "main": "index.ts",
+  "main": "index.tsx",
   "scripts": {
     "test": "./node_modules/.bin/tsc"
   },
