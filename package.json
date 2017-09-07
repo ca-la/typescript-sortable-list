@@ -1,6 +1,6 @@
 {
   "name": "typescript-sortable-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight reorderable (via HTML5 drag+drop) list, in TypeScript, with no dependencies.",
   "main": "index.tsx",
   "scripts": {
