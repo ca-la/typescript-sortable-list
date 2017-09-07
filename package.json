@@ -1,0 +1,36 @@
+{
+  "name": "typescript-sortable-list",
+  "version": "1.0.0",
+  "description": "A lightweight reorderable (via HTML5 drag+drop) list, in TypeScript, with no dependencies.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ca-la/typescript-sortable-list.git"
+  },
+  "keywords": [
+    "react",
+    "sortable",
+    "draggable",
+    "dnd",
+    "drag",
+    "list",
+    "order"
+  ],
+  "author": "Dylan Pyle <me@dylanpyle.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ca-la/typescript-sortable-list/issues"
+  },
+  "homepage": "https://github.com/ca-la/typescript-sortable-list#readme",
+  "peerDependencies": {
+    "react": "^15.6.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.0.5",
+    "react": "15.6.1",
+    "typescript": "2.5.2"
+  }
+}

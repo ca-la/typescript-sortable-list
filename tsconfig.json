@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": ["es2015", "dom"],
+    "outDir": "./test-temp-dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react"
+  },
+  "include": [
+    "index.tsx"
+  ]
+}
