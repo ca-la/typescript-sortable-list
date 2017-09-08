@@ -10,7 +10,7 @@ import { SortableItem, SortableList } from 'sortable-list';
 class MyComponent extends React.Component {
   public render(): JSX.Element {
     return (
-      <SortableList>
+      <SortableList onItemMove={this.onItemMove}>
         {this.state.items.map(this.renderItem)}
       </SortableList>
     );
@@ -22,7 +22,7 @@ class MyComponent extends React.Component {
     );
   }
 
-  private onFeatureMove = (oldIndex: number, newIndex: number): void => {
+  private onItemMove = (oldIndex: number, newIndex: number): void => {
     // Update your state to put `items` in the new correct order.
     // The SortableList is a "controlled" component that resets its own state
     // after the drag operation is  complete, so it's up to the parent component
@@ -34,3 +34,4 @@ class MyComponent extends React.Component {
 ## Roadmap
 
 - Touch support
+- Add full working example
